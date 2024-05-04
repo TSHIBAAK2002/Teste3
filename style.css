@@ -1,0 +1,154 @@
+body{
+    margin: 0;
+    padding: 0;
+    min-width: 320px;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top:0;
+    background-color: white;
+    height: 50px;
+    padding: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid black;
+    z-index: 10;
+}
+
+header div{
+    display: flex;
+    background-color: red;
+    width: 100%;
+    height: 35px;
+    justify-content: center;
+}
+
+.texte1_logo , .texte2_logo {
+    color: white;
+}
+
+.texte1_logo{
+    font-size: x-large;
+    font-weight: 500;
+    font-family: Arial Black, Helvetica, sans-serif;
+}
+
+.texte2_logo{
+    position: relative;
+    top: 11px;
+    left: 10px;
+}
+
+/*--------------------------------------------------------------------*/
+
+section{
+    position: absolute;
+    padding: 12px;
+    margin-top: 19%;
+    margin-left: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 349px;
+    height: 410px;
+    border: 2px solid black;
+    border-radius: 6px;
+    margin: 5px;
+}
+
+.box .conteneurImage1 , .conteneurImage2, .conteneurImage3, .conteneurImage4, .conteneurImage5, .conteneurImage6, .conteneurImage7, .conteneurImage8, .conteneurImage9 ,.conteneurImage10{
+    width: 97%;
+    margin: 4px;
+    height: 60%;
+    border: 1px solid black;
+} 
+
+.box p{
+    display: flex;
+    justify-content: center;
+}
+
+/*--------------------------------------------------------------------*/
+
+.box .conteneurImage1{
+    background-image: url("1.png");
+    background-size: cover;
+}
+.box .conteneurImage2{
+    background-image: url("2.png");
+    background-size: cover;
+}
+.box .conteneurImage3{
+    background-image: url("3.png");
+    background-size: cover;
+}
+.box .conteneurImage4{
+    background-image: url("4.png");
+    background-size: cover;
+}
+.box .conteneurImage5{
+    background-image: url("5.png");
+    background-size: cover;
+}
+.box .conteneurImage6{
+    background-image: url("6.png");
+    background-size: cover;
+}
+.box .conteneurImage7{
+    background-image: url("7.png");
+    background-size: cover;
+}
+.box .conteneurImage8{
+    background-image: url("8.png");
+    background-size: cover;
+}
+.box .conteneurImage9{
+    background-image: url("9.png");
+    background-size: cover;
+}
+.box .conteneurImage10{
+    background-image: url("10.png");
+    background-size: cover;
+}
+
+/*--------------------------------------------------------------------*/
+
+.fichePrestataire{
+    width: 419px;
+    height: 439px;
+    border: 2px solid black;
+    border-radius: 6px;
+    margin: 39px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fichePrestataire input{
+    margin-bottom: 5px;
+    width: 75%;
+    height: 25%;
+    position: relative;
+}
+
+.fichePrestataire .formulaire{
+    padding: 7px;
+    text-align: center;
+}
+
+#bouttonSoumettre{
+    width: 60%;
+    margin: 4%;
+    height: 60px;
+    background-color: rgba(0, 0, 255, 0.877);
+    color: white;
+    border-radius: 6px;
+    border: none;
+}
